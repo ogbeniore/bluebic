@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BlueBic - Dashboard</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="dropdown account-dropdown">
+      <button class="account-dropdown-button dropdown-toggle" type="button" id="accountDropdown" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="true">
+        <img src="images/logo.png" alt="User Logo" class="img-circle dropdown-image">
+        Handmaid’s International
+        <span class="caret" style="color: #1c75bb; margin-left: 10px;"></span>
+      </button>
+      <ul class="dropdown-menu account-dropdown-menu" aria-labelledby="accountDropdown">
+        <li class="account-dropdown-menu-header"><a href="#"> Your
+            Bluebic Account</a></li>
+        <li class="active account-dropdown-menu-item"><a href="#">Handmaid's International</a></li>
+        <li class="account-dropdown-menu-item"><a href="#">Holy Infant College</a></li>
+        <li class="account-dropdown-menu-item"><a href="#">Great Delight Schools</a></li>
+        <li class="new-dropdown-menu"><a href="#">+ Add a New School</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="account-dropdown-footer"><a href="#">You are signed in as <strong>dukauwa.du@gmail.com</strong> </a></li>
+      </ul>
+    </div>
+    <div class="sidebar-menu-container">
+      <ul class="sidebar-menu">
+        <li class="sidebar-menu-item">
+          <img src="images/dashboard.svg" alt="Dashboard" class="sidebar-menu-image">
+          <a href="">Dashboard</a>
+        </li>
+        <li class="sidebar-menu-item --with-dropdown">
+          <img src="images/student.svg" alt="Students" class="sidebar-menu-image">
+          <span class="dropdown">
+            <button class="dropdown-toggle" type="button" id="dropdownMenuStudents" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Students
+              <span class="caret" style="margin-left: 80px;"></span>
+            </button>
+            <ul class="sidebar-dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuStudents">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+            </ul>
+          </span>
+        </li>
+        <li class="sidebar-menu-item --with-dropdown">
+          <img src="images/employee.svg" alt="Employees" class="sidebar-menu-image">
+          <span class="dropdown">
+            <button class="dropdown-toggle" type="button" id="dropdownMenuEmployees" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Employees
+              <span class="caret" style="margin-left: 65px;"></span>
+            </button>
+            <ul class="sidebar-dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuEmployees">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+            </ul>
+          </span>
+        </li>
+        <li class="sidebar-menu-item">
+          <img src="images/guardian.svg" alt="guardian" class="sidebar-menu-image">
+          <a href="">Guardians</a>
+        </li>
+        <li class="sidebar-menu-item --with-dropdown">
+          <img src="images/attendance.svg" alt="attendance" class="sidebar-menu-image">
+          <span class="dropdown">
+            <button class="dropdown-toggle" type="button" id="dropdownMenuAttendance" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Attendance
+              <span class="caret" style="margin-left: 59px;"></span>
+            </button>
+            <ul class="sidebar-dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuAttendance">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+            </ul>
+          </span>
+        </li>
+        <li class="sidebar-menu-item --with-dropdown">
+          <img src="images/finance.svg" alt="Finances" class="sidebar-menu-image">
+          <span class="dropdown">
+            <button class="dropdown-toggle" type="button" id="dropdownMenuFinances" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Finances
+              <span class="caret" style="margin-left: 75px;"></span>
+            </button>
+            <ul class="sidebar-dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuFinances">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+            </ul>
+          </span>
+        </li>
+        <li class="sidebar-menu-item">
+          <img src="images/subjects.svg" alt="Subjects" class="sidebar-menu-image">
+          <a href="">Subjects</a>
+        </li>
+        <li class="sidebar-menu-item">
+          <img src="images/batches.svg" alt="Batches" class="sidebar-menu-image">
+          <a href="">Batches</a>
+        </li>
+        <li class="sidebar-menu-item">
+          <img src="images/report.svg" alt="report card" class="sidebar-menu-image">
+          <a href="">Report Cards</a>
+        </li>
+        <li class="sidebar-menu-item">
+          <img src="images/sms.svg" alt="sms" class="sidebar-menu-image">
+          <a href="">SMS</a>
+        </li>
+        <li class="sidebar-menu-item --with-dropdown">
+          <img src="images/event.svg" alt="Events" class="sidebar-menu-image">
+          <span class="dropdown">
+            <button class="dropdown-toggle" type="button" id="dropdownMenuEvent" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="true">
+              Events
+              <span class="caret" style="margin-left: 85px;"></span>
+            </button>
+            <ul class="sidebar-dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuEvent">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+            </ul>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar-footer">
+      <a href="" class="settings-link">Settings</a>
+      <br>
+      <ul class="sidebar-footer-list">
+        <li>
+          <a href="" class="help-link">
+            <span>
+              <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 0C3.36423 0 0 3.19557 0 7.16694C0 9.44567 1.12572 11.571 3.02997 12.9222V16.336C3.02997 16.5995 3.18999 16.8381 3.43776 16.944C3.68407 17.0494 3.97312 17.0041 4.17334 16.8247L6.9737 14.316C7.14995 14.3278 7.32603 14.3338 7.5 14.3338C11.6358 14.3338 15 11.1382 15 7.16687C15 3.19182 11.6322 0 7.5 0ZM7.5 13.0057C7.27203 13.0057 7.03923 12.9932 6.80802 12.9686C6.61244 12.9475 6.41714 13.0102 6.27228 13.14L4.3936 14.8229V12.5742C4.3936 12.3504 4.27783 12.1416 4.08563 12.0189C2.38118 10.9305 1.36364 9.11669 1.36364 7.16694C1.36364 3.94739 4.11637 1.32813 7.5 1.32813C10.8836 1.32813 13.6364 3.94739 13.6364 7.16694C13.6364 10.3864 10.8836 13.0057 7.5 13.0057Z"
+                  fill="#1C75BB" />
+                <path d="M7.84064 3.28296H5.45428C5.07771 3.28296 4.77246 3.58026 4.77246 3.94702C4.77246 4.31378 5.07771 4.61109 5.45428 4.61109H7.84064C8.40457 4.61109 8.86337 5.05793 8.86337 5.60718C8.86337 6.15643 8.40457 6.60328 7.84064 6.60328H7.15882C6.78226 6.60328 6.47701 6.90058 6.47701 7.26734V8.22336C6.47701 8.59012 6.78226 8.88742 7.15882 8.88742C7.53539 8.88742 7.84064 8.59012 7.84064 8.22336V7.9314C9.15648 7.9314 10.227 6.88879 10.227 5.60718C10.227 4.32561 9.15648 3.28296 7.84064 3.28296Z"
+                  fill="#1C75BB" />
+                <path d="M7.15874 11.4937C7.66709 11.4937 8.07919 11.0923 8.07919 10.5972C8.07919 10.1021 7.66709 9.70068 7.15874 9.70068C6.65038 9.70068 6.23828 10.1021 6.23828 10.5972C6.23828 11.0923 6.65038 11.4937 7.15874 11.4937Z"
+                  fill="#1C75BB" />
+              </svg>
+              Help
+            </span>
+          </a>
+        </li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Privacy</a></li>
+      </ul>
+    </div>
+  </aside>
+  <!-- dashboard content -->
+  <section class="dashboard-content">
+    <section class="search-section">
+      <div class="form-group col-md-7">
+        <div class="icon-addon addon-sm">
+          <input type="text" class="form-control search-input" id="search">
+          <label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+        </div>
+      </div>
+      <div class="col-md-3 col-md-offset-1 d-flex align-center" style="height: 100%;">
+        <span class="notification">
+          <img src="images/notification.svg" alt="Active Notification">
+        </span>
+        <div class="">
+          <button class="dropdown-toggle user-details d-flex align-center" type="button" id="dropdownMenuProfile"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="name-and-email">
+              <h3>Ukauwa David</h3>
+              <p class="muted">dukauwa.du@gmail.com</p>
+            </span>
+            <span class="user-image">
+              <img src="images/david.png" alt="Daavid" class="img-circle profile-picture">
+            </span>
+            <span class="caret" style="margin-left: 25px;"></span>
+          </button>
+          <ul class="profile-dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuProfile">
+            <li>
+              <a href="#">
+                <span>
+                  <img src="images/profile-icon.svg">
+                </span>
+                Profile Settings
+              </a></li>
+            <li class="divider"></li>
+            <li>
+              <a href="#" class="btn-like">
+                <span>
+                  <img src="images/logout.svg">
+                </span>
+                Logout
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section fees-section">
+      <div class="section-title d-flex">
+        <img src="images/fees.svg" alt="Schhol fees">
+        <h3 class="uppercase">
+          Student Fees
+        </h3>
+      </div>
+      <div class="section-content d-flex">
+        <div class="col-md-4 section-card d-flex align-center">
+          <span class="">
+            <p class="muted uppercase">Invoiced</p>
+            <h3 class="text-blue">₦2,300,000.00</h3>
+          </span>
+          <span class="card-icon blue">
+            <img src="images/approved.svg" alt="approved invoices">
+          </span>
+        </div>
+        <div class="col-md-4 section-card d-flex align-center">
+          <span class="">
+            <p class="muted uppercase">Received</p>
+            <h3 class="text-blue">₦1,700,000.00</h3>
+          </span>
+          <span class="card-icon green">
+            <img src="images/money.svg" alt="received invoices">
+          </span>
+        </div>
+        <div class="col-md-4 section-card d-flex align-center">
+          <span class="">
+            <p class="muted uppercase">Pending</p>
+            <h3 class="text-blue">₦600,000.00</h3>
+          </span>
+          <span class="card-icon yellow">
+            <img src="images/hourglass.svg" alt="approved invoices">
+          </span>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
