@@ -8,7 +8,7 @@ body {
 }
 .sidebar {
   background: linear-gradient(136.25deg, #1b75bb 0%, #00adee 100%);
-  width: 300px;
+  width: 290px;
   min-height: 100vh;
 }
 .dropdown-image {
@@ -27,7 +27,7 @@ body {
 }
 .account-dropdown-menu {
   top: 5px;
-  max-width: 300px;
+  max-width: 290px;
   border-radius: 1em;
   padding: 1em;
 }
@@ -271,10 +271,11 @@ body {
 }
 .section-title {
   width: 100%;
+  margin-bottom: 1em;
 }
 .section-title img {
-  width: 36px;
-  margin-right: 2em;
+  width: 28px;
+  margin-right: 1em;
 }
 .uppercase {
   text-transform: uppercase;
@@ -305,12 +306,47 @@ body {
   background: #fad961;
   padding: 1em 2em;
 }
-
 .text-blue {
   color: #2d74da;
   font-weight: 700;
 }
+.text-blue:hover {
+  text-decoration: none;
+  color: #2d74da;
+}
 .section-card:hover {
   cursor: pointer;
   box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.1);
+}
+.pull-right {
+  text-align: right;
+  margin-left: auto;
+}
+.text-bold {
+  margin: 0;
+}
+.section-card.column {
+  margin: 0.5em;
+}
+.direction-up > p {
+  color: #17bf5f;
+  font-size: 19px;
+  margin: 0;
+}
+.direction-down > p {
+  color: #fb5d5d;
+  font-size: 19px;
+  margin: 0;
+}
+h4 > small {
+  font-size: 10px;
+}
+.text-center.pull-right {
+  text-align: center !important;
+}
+.col-md-8-5 {
+  width: 72%;
+}
+.table-row {
+  font-size: 11px;
 }

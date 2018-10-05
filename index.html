@@ -199,12 +199,12 @@
         </div>
       </div>
     </section>
-    <section class="section fees-section">
+    <section class="section col-md-12">
       <div class="section-title d-flex">
         <img src="images/fees.svg" alt="Schhol fees">
-        <h3 class="uppercase">
+        <h5 class="uppercase">
           Student Fees
-        </h3>
+        </h5>
       </div>
       <div class="section-content d-flex">
         <div class="col-md-4 section-card d-flex align-center">
@@ -236,9 +236,148 @@
         </div>
       </div>
     </section>
+    <section class="section col-md-8">
+      <div class="section-title d-flex align-center">
+        <img src="images/performance.svg" alt="Student Performance">
+        <h5 class="uppercase">
+          Student Performance
+        </h5>
+        <span class="pull-right">
+          <a href="" class="text-blue uppercase">View Reports</a>
+        </span>
+      </div>
+      <div class="section-content">
+        <canvas id="myChart" class="section-card"></canvas>
+      </div>
+    </section>
+    <section class="section col-md-4">
+      <div class="section-title d-flex">
+        <img src="images/stats.svg" alt="Schhol fees">
+        <h5 class="uppercase">
+          General Statisitcs
+        </h5>
+      </div>
+      <div class="section-content">
+        <div class="section-card d-flex align-center" style="padding: 0.6em 2em;">
+          <span class="">
+            <p class="muted uppercase">Students</p>
+            <h3 class="text-bold">50,000</h3>
+            <p class="text-blue uppercase">View reports</p>
+          </span>
+          <span class="direction-up text-center">
+            <p>+ 4
+              <span>
+                <img src="images/arrow-up.svg" alt="go down">
+              </span>
+            </p>
+            <img src="images/up.svg" alt="approved invoices">
+          </span>
+        </div>
+        <div class="section-card column d-flex align-center" style="padding: 0.6em 2em;">
+          <span class="">
+            <p class="muted uppercase">Parents</p>
+            <h3 class="text-bold">15,000</h3>
+            <p class="text-blue uppercase">View list</p>
+          </span>
+          <span class="direction-up text-center">
+            <p>+ 13
+              <span>
+                <img src="images/arrow-up.svg" alt="go down">
+              </span>
+            </p>
+            <img src="images/up.svg" alt="approved invoices">
+          </span>
+        </div>
+        <div class="section-card d-flex align-center" style="padding: 0.6em 2em;">
+          <span class="">
+            <p class="muted uppercase">Teachers</p>
+            <h3 class="text-bold">5,000</h3>
+            <p class="text-blue uppercase">View list</p>
+          </span>
+          <span class="direction-down text-center">
+            <p>- 12
+              <span>
+                <img src="images/arrow-down.svg" alt="go down">
+              </span>
+            </p>
+            <img src="images/down.svg" alt="approved invoices">
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="section col-md-12">
+      <div class="section-title d-flex">
+        <img src="images/profile-icon.svg" alt="Schhol fees">
+        <h5 class="uppercase">
+          Absent students
+        </h5>
+      </div>
+      <div class="col-md-3 section-card">
+        <div class="d-flex">
+          <h4>94.6% <br> <small>Student Attendance</small></h4>
+          <span class="direction-up text-center pull-right">
+            <p>+ 4
+              <span>
+                <img src="images/arrow-up.svg" alt="go down">
+              </span>
+            </p>
+            <img src="images/up.svg" alt="approved invoices">
+          </span>
+        </div>
+        <div class="d-flex">
+          <h4>6 <br> <small>No of Student Absent</small></h4>
+          <span class="direction-down text-center pull-right">
+            <p>- 12
+              <span>
+                <img src="images/arrow-down.svg" alt="go down">
+              </span>
+            </p>
+            <img src="images/down.svg" alt="approved invoices">
+          </span>
+        </div>
+      </div>
+      <div class="section-card col-md-8 col-md-8-5">
+        <div class="d-flex table-row">
+          <div class="col-md-3">NAME</div>
+          <div class="col-md-3">CLASS</div>
+          <div class="col-md-3">NUMBER OF DAYS ABSENT</div>
+          <div class="col-md-3"></div>
+        </div>
+        <hr>
+        <div class="d-flex table-row">
+          <div class="col-md-3">Salihu, Attah Chigboza</div>
+          <div class="col-md-3">JSS1 Happiness</div>
+          <div class="col-md-3">3</div>
+          <div class="col-md-3 text-blue pull-right">
+            <a href="" class="text-blue uppercase">View contact info</a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex table-row">
+          <div class="col-md-3">Salihu, Attah Chigboza</div>
+          <div class="col-md-3">JSS1 Happiness</div>
+          <div class="col-md-3">3</div>
+          <div class="col-md-3 text-blue">
+            <a href="" class="text-blue uppercase pull-right">View contact info</a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex table-row">
+          <div class="col-md-3">Salihu, Attah Chigboza</div>
+          <div class="col-md-3">JSS1 Happiness</div>
+          <div class="col-md-3">3</div>
+          <div class="col-md-3 text-blue">
+            <a href="" class="text-blue uppercase pull-right">View contact info</a>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
   </section>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js" integrity="sha256-CfcERD4Ov4+lKbWbYqXD6aFM9M51gN4GUEtDhkWABMo="
+    crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
 </body>
